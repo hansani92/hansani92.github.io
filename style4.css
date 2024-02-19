@@ -1,0 +1,26 @@
+body{
+    font-family: "Hiragino Kaku Gothic Pro","Meriyo","Arial";
+    font-size: 15px;
+    border-top: 15px solid #79a1b1!important; 
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3)50%,rgba(0, 0, 0, 0.3)50%), url(Images/Mapbackground.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.topic{
+    text-align: center;
+    color:red;
+    font-size:15px;
+    font-weight: bold;   
+}
+
+.content1.ul.li{
+ background: darkolivegreen;
+ color: aquamarine;
+ padding: 15px 20px 12px;
+}

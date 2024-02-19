@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+body{
+    font-family: "Hiragino Kaku Gothic Pro","Meriyo","Arial";
+    font-size: 18px;
+    border-top: 10px solid #79a1b1!important;
+}
+a{
+  text-decoration: none;  
+  color:#333;
+}
+*{
+    margin:0;
+    padding:0;
+    
+    }
+    
+    .logo{ 
+        text-align: left;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        /*margin-top: 30px;*/
+    }
+       
+    .logo img{
+        /*display: inline-block;*/
+        float: left;
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 140px;
+        height: 80px;
+     }
+
+    .w_inner{
+        width: 1200px;
+        margin:0 auto;
+        background: #aba8a8;
+    }
+
+	.header{
+		/*display:flex;*/
+        justify-content: center;
+	}
+
+    .header ul{
+        display:flex; 
+        margin-bottom: 30px;
+		list-style: none;
+		text-align: center;
+    }
+
+   .header ul li{
+    width:200px;
+    text-align:center;
+    border-right:1px solid  #eee;
+    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
+		/*background-color: #b1f0c2;*/
+   } 
+   
+   .header ul li a:hover{
+	Color: blue;
+	}
+/*
+   .header ul li:first-child{
+         border-width: 1px solid #e65252;
+   }
+*/
+    .header ul li a{
+        display:block;
+    }
+    .header_img{
+		width: 1200px;
+        text-align: center;
+    }
+    .header_img img{
+		width: 100%;
+        display: inline-block;
+    }
+    .container_service .service_block{   
+        display:flex;
+        justify-content: center;
+    }
+    .container_service .service{
+        width: 33%;
+		justify-content: center;
+		margin: 5px 5px;
+    }
+    .container_service h2{
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .container_service .service img{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 20px;
+		
+    }
+    .footer{
+        margin-top: 40px;
+        font-size: 12px;
+    }
+    .pp_link{
+        text-align: right;
+    }
+    .copy{
+        text-align: center;
+        background: #79a1b1;
+        color: #fff;
+        font-size: 12px;
+        padding:7px 0 3px;
+    }

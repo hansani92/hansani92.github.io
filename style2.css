@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body{
+    font-family: "Hiragino Kaku Gothic Pro","Meriyo","Arial";
+    font-size: 15px;
+    border-top: 15px solid #79a1b1!important;
+}
+a{
+  text-decoration: none;  
+  color:#333;
+}
+*{
+    margin:0;
+    padding:0;
+    }
+
+.logo{ 
+        text-align: left;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        
+    }
+       
+ .logo img{
+        /*display: inline-block;*/
+        float: left;
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 140px;
+        height: 80px;
+     }
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3)50%,rgba(0, 0, 0, 0.3)50%), url(Images/plumblossom.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.w_inner{
+    width: 1200px;
+    margin:0 auto;
+    background: darkgrey;
+}
+
+.header ul{
+    display:flex; 
+    margin-bottom: 30px;
+}
+
+.header ul li{
+    width:200px;
+    text-align:center;
+    border-right:1px solid  #eee;
+    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
+} 
+.header ul li:first-child{
+     border-left: 1px solid #eee;
+}
+
+.header ul li a{
+    display:block;
+}
+
+.header ul li a:hover{
+    color: blue;
+}
+
+.topic{
+    text-align: center;
+    align-items: center;
+    font-size:15px;
+    font-weight: bold;   
+}
+
+.list{
+    align-items: baseline;
+    text-indent: 250pt;
+    font-size: larger;
+    margin-bottom: 20px;
+}
